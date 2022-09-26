@@ -1,0 +1,25 @@
+.input-wrapper {
+  position: relative;
+  width: 300px;
+}
+
+input{
+  box-sizing: border-box;
+  background-color:#373737;
+  border-radius: 12px;
+  width: 300px;
+  height: 30px;
+}
+.input-icon {
+  color: #7F7F7F;
+  position: absolute;
+  width: 20px;
+  height: 20px;    
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input-icon.password {
+left: unset;
+right: 12px;
+}
